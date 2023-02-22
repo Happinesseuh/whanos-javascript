@@ -1,19 +1,10 @@
 {
-  "name": "whanos-javascript",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "hello-world",
+  "description": "Hello World",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.17.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Happinesseuh/whanos-javascript.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Happinesseuh/whanos-javascript/issues"
-  },
-  "homepage": "https://github.com/Happinesseuh/whanos-javascript#readme"
+  "main": "app/app.js"
 }
